@@ -6,8 +6,8 @@ from email.mime.base import MIMEBase
 from email import encoders
 from youtube_api_call import *
 
-EMAIL_ID = os.environ.get('EMAIL_ID')
-EMAIL_PASS = 'kgskerxacgyysafr'
+EMAIL_ID = "#your_email_id"
+EMAIL_PASS = '#your_email_pass'
 
 message = MIMEMultipart("alternative")
 message['From'] = EMAIL_ID
