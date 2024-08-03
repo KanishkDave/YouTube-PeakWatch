@@ -6,8 +6,8 @@ from googleapiclient.discovery import build
 # Initilizing the Config parameters using below method
 def config():
 
-    API_KEY = 'AIzaSyD_hgi_gmyCFpD3ddgXkE_1RW0qek2UHW4'
-    CHANNEL_ID = ['UCCezIgC97PvUuR4_gbFUs5g','UCfzlCWGWYyIQ0aLC5w48gBQ','UCdp6GUwjKscp5ST4M4WgIpw']
+    API_KEY = '#your_youtube_api_key'
+    CHANNEL_ID = [#youtube_channel_ids]
 
     EXTRACTED_DATA = []
     YOUTUBE = build('youtube', 'v3', developerKey=API_KEY)
